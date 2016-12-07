@@ -31,22 +31,17 @@ h1, h2, h3 {
   border: none;
 }
 
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
   color: gray;
-}
-.navbar-default .navbar-brand:hover{
-  color: black;
-  opacity: 0.75;
+  &:hover {
+    color: gray;
+    opacity: 0.5;
+  }
+  
 }
 
-.navbar-default .navbar-nav li a {
-  color: gray;
-}
 
-.navbar-default .navbar-nav li a:hover {
-  color: black;
-  opacity: 0.75;
-}
 
 .home-callout {
   margin-top: -20px;
